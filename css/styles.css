@@ -149,6 +149,8 @@ p{
     font-size: 23px;
     position: relative;
     bottom: -50px;
+    justify-content: center;
+    align-items: center;
       
 }
 
@@ -337,6 +339,7 @@ p{
     justify-content: center;
     align-items: center;
     width: 50px;
+    color: black;
     cursor: pointer;
 
 }
