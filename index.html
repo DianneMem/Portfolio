@@ -12,17 +12,17 @@
 </head>
 
 <body>
-    <section class="wrapper">
+    <section id="home" class="wrapper">
         <header>
             <nav class="navbar">
                 <div class="brand">
                     <h2>K<span>M</span></h2>
                 </div>
                 <ul class="menu">
-                    <li><a class="active" href="#">Home</a></li>
-                    <li><a href="#">About me</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#projescts">Projects</a></li>
+                    <li><a href="#footer">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -36,24 +36,25 @@
     <button class="download" download="/img/CV WKaren.pdf">Download CV</button>
 </a>
             </div>
-            <img src="/img/particulas.gif" alt="gif ">
+            <img class="foto" src="/img/perfil.png" style="width: 600px"   alt="foto">
 
         </main>
     </section>
-    <section class="about">
-        <img src="/img/laptop.jpeg" alt="foto Karen">
+
+    <section id="about-me" class="about" >
+        <img src="/img/Imagen de WhatsApp 2023-04-05 a las 11.19.12.jpg" alt="foto Karen">
         <div class="about-info">
             <h2>About me</h2>
             <div class="divider"></div>
             <p>Hi! I'm Karen, mother of Santiago and Joaquín, a lawyer by profession in the UNA, although without experience in the field. I got to know the tech world a year ago, with difficulty and many frustrations at the beginning I finished this beautiful career with which I dream to achieve a great personal and professional growth. 
                 During this time I took Henry's bootcamp course, which gave me solid knowledge in web development in the JavaScript language, both front end and back end. </br>
-                                 
+ <br>                                
 Hace 1 año empecé a estudiar programación,  soy mamá de 2 nenes, abogada egresada de la UNA, sin experiencias en el rubro, estoy muy entusiasmada con la carrera de desarolladora en la que proyecto mucho crecimiento personal y profesional.  En este tiempo realicé el curso bootcamp de Henry, el cual me dió sólidos conocimientos en desarrollo web en el lenguaje JavaScript, tanto front end como back end.</p>
 
         </div>
     </section>
 
-    <section class="portfolio">
+    <section id="projetcs" class="portfolio">
         <div class="portfolio-headings">
             <h2>My Projects</h2>
             <div class="divider"></div>
@@ -93,10 +94,41 @@ Hace 1 año empecé a estudiar programación,  soy mamá de 2 nenes, abogada egr
 
                 </div>
             </div>
+            <div class="card">
+                <div class="card__img3" style="width: 300px"> </div>
+
+                <div class="card__title">
+                    <h2>CRUD To-do</h2>
+                </div>
+
+                <div class="links">
+                    <a href="https://github.com/DianneMem/crud-localstorage">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://crud-localstorage.vercel.app/">
+                        <i class="fas fa-globe-americas"></i>
+                    </a>
+ 
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__img4"> </div>
+                
+                <div class="card__title">
+                    <h2>App Chat</h2>
+                </div>
+
+                <div class="links">
+                    <a href="https://github.com/DianneMem/App-chat">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://crud-localstorage.vercel.app/">
+                        <i class="fas fa-globe-americas"></i>
+                    </a>
         </div>
     </section>
 
-    <section class="footer">
+    <section id="footer"class="footer">
         <div class="footer-content">
             <h2>Karen Memmel</h2>
             <h5>Full Stack Developer</h5>
