@@ -54,7 +54,7 @@ body {
     list-style: none;
 }
 
-.menu a:active {
+.menu a:active{
     color: aqua;
 }
 
@@ -113,7 +113,7 @@ p{
 
 .foto{
     position: relative;
-    top: -215px;
+    top: -230px;
     left: -10px;
 }
 
