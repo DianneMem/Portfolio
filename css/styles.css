@@ -54,10 +54,6 @@ body {
     list-style: none;
 }
 
-.menu a:active{
-    color: aqua;
-}
-
 .menu a:hover {
     background-color: aqua;
     color: #191c32;
@@ -65,6 +61,9 @@ body {
     cursor: pointer;
 }
 
+.menu:active{
+    color: aqua;
+}
 .main {
     margin: 0 auto;
     width: 80vw;
@@ -113,8 +112,8 @@ p{
 
 .foto{
     position: relative;
-    top: -230px;
-    left: -10px;
+    top: -130px;
+    left: 30px;
 }
 
 .about {
