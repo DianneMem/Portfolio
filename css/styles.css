@@ -203,7 +203,7 @@ background-color: #e5e5e5;
 .card__img1 {
     width: 100%;
     height: 150px;
-    background-image: url(/Portfolio/img/flybooks.png);
+    background-image: url(/img/flybooks.png);
     background-size: cover;
 }
 
@@ -224,7 +224,7 @@ background-color: #e5e5e5;
 .card__img {
     width: 100%;
     height: 150px;
-    background-image: url(/Portfolio/img/FoodsHenry.png);
+    background-image: url(/img/FoodsHenry.png);
     background-size: cover;
     grid-column: 1/5;
 }
@@ -232,14 +232,14 @@ background-color: #e5e5e5;
 .card__img3 {
     width: 100%;
     height: 150px;
-    background-image: url(/Portfolio/img/crudTodo.png);
+    background-image: url(/img/crudTodo.png);
     background-size: cover;
 }
 
 .card__img4 {
     width: 100%;
     height: 150px;
-    background-image: url(/Portfolio/img/chatSocket.png);
+    background-image: url(/img/chatSocket.png);
     background-size: cover;
 }
 
